@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    184deg,
+    rgba(176, 104, 233, 1) 0%,
+    rgba(100, 99, 231, 1) 100%
+  );
+}
+.main {
+  display: flex;
+  position: relative;
+  background-color: white;
+  border-radius: 15px;
+  width: 920px;
+  height: 509px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.right {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.PcLogo {
+  width: 471.69px;
+  height: 358.13px;
+}
+.MiniLogo {
+  width: 189.36px;
+  height: 205.66px;
+  position: absolute;
+  top: 203.13px;
+  left: -93.07px;
+}
+.Faq {
+  width: 67px;
+  height: 32px;
+  font-family: Kumbh Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.69px;
+  margin-bottom: 43px;
+}
+.questionsDiv {
+  width: 350px;
+  height: 72px;
+}
+.questionsP {
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.36px;
+}
+.PathImg {
+  width: 14px;
+  height: 9px;
+  margin-left: 5rem;
+}
+
+.PathImg2 {
+  width: 14px;
+  height: 9px;
+  margin-left: 4.9rem;
+}
+.PathImg3 {
+  width: 14px;
+  height: 9px;
+  margin-left: 8.6rem;
+}
+.PathImg4 {
+  width: 14px;
+  height: 9px;
+  margin-left: 8.4rem;
+}
+.PathImg5 {
+  width: 14px;
+  height: 9px;
+  margin-left: 6.1rem;
+}
+.DownP {
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #787887;
+}
+.Group4 {
+  display: none;
+}
+.downNone {
+  display: none;
+}
+@media screen and (max-width: 1035px) {
+  .Faq {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .MiniLogo {
+    display: none;
+  }
+  .PcLogo {
+    display: none;
+  }
+  .main {
+    height: auto;
+    width: auto;
+  }
+  .Group4 {
+    display: flex;
+    margin-right: 59px;
+  }
+}
